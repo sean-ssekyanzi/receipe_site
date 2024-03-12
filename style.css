@@ -1,0 +1,24 @@
+.wrapper {
+    background-color: pink;
+    width: 500px;
+    height: 700px;
+    position: absolute;
+}
+.wrapper2 {
+    background-color: white;
+    width: 350px;
+    height: 600px;
+    border-top: 100px;
+    margin-left: 70px;
+    margin-top:50px ;
+    border-radius: 20px;
+    /* margin: 100px 10px 10px 10px; */
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.item-1{
+    margin: 0px 0px 10px 10px;
+}
