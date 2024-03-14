@@ -1,7 +1,7 @@
 .wrapper {
     background-color: pink;
     width: 500px;
-    height: 700px;
+    height: 1200px;
     position: absolute;
 }
 .wrapper2 {
@@ -18,7 +18,98 @@
 .container{
     display: flex;
     flex-direction: column;
+    /* border-radius: 20px; */
+    border-top: 10px;
+    justify-content: space-around;
+    background-color: white;
 }
-.item-1{
-    margin: 0px 0px 10px 10px;
+.item1 > img{
+    /* width: 100px;
+    height: 200px; */
+    /* flex: 1; */
+    /* flex-wrap: wrap; */
+    padding: 10px;
+    object-fit: cover;
+    border-radius: 20px;
+    max-width: 90%;
+    height: auto;
+    margin-left: 8px;
+}
+
+.item2 >h1{
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    margin-left:-5px;
+    font-size: 20px;
+}
+.item2 >p{
+    font-size: 9px;
+    padding-left: 20px;
+}
+.item3 {
+    background-color: bisque;
+    max-width: 90%;
+    margin-left: 19px;
+    border-radius: 7px;
+}
+.item3 >h3 {
+    font-size: 10px;
+    margin-left: 15px;
+    color: blueviolet;
+}
+.item3 > ul {
+    font-size: 10px;
+}
+.item4 > h1 {
+    color: brown;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.item4 > ul {
+    font-size: 10px;
+}
+.item4 {
+    padding: 10px;
+}
+.item5 > h1 {
+    font-size: 20px;
+    margin-left: 15px;
+    color: brown;
+}
+.item5 > ol {
+    font-size: 9px;
+    margin-left: -1px;
+    line-height: 15px;
+    /* margin-bottom: 50px; */
+}
+.item5 {
+    padding: 20px;
+}
+.item6 >h1 {
+    font-size: 20px;
+    color: brown;
+    margin-left: 10px;
+}
+.item6 >p{
+    font-size: 10px;
+}
+.nutrition{
+    border-collapse: collapse;
+    border: none;
+    padding-left: 20px;
+}
+.nutrition tr {
+    border-top: 1px solid black;
+    padding-left: 20px;
+}
+.nutrition tr:first-child {
+    border-top: none;
+}
+.nutrition td:nth-child(1) {
+    padding-right: 140px;
+    padding-left: 10px;
+}
+.item6 {
+    padding-left: 20px;
 }
